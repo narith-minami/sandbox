@@ -6,3 +6,10 @@ document.getElementById("app").innerHTML = `
   for more info about Parcel.
 </div>
 `;
+
+var $button = document.getElementById("go-button");
+$button.addEventListener("click", click, false);
+
+function click() {
+  alert("ボタンを押しましたね！");
+}
